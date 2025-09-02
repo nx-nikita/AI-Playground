@@ -15,18 +15,6 @@ I explored several leading AI platforms and summarized their standout features:
 - **Microsoft Copilot Lab** → Guided templates and real-time productivity helpers.  
 - **Perplexity AI** → Search-like results with citations and aggregated sources.  
 
-### ✨ Core Features Chosen
-- Model Selector  
-- Prompt Editor (with template save/load)  
-- Parameters Panel (temperature, tokens, etc.)  
-- Chat/Output Area (copy + download JSON actions)  
-- Theme Toggle (dark/light mode, persisted)  
-- Responsive Layout (mobile → desktop)  
-- Mock API (models & templates with loading/error states)  
-- Accessibility (keyboard + ARIA support)  
-
----
-
 ## 🎨 Design
 
 I created a **Figma mockup** to plan layout and tokens.
@@ -55,16 +43,3 @@ I created a **Figma mockup** to plan layout and tokens.
 
 ---
 
-## 📚 Storybook
-
-This project includes **Storybook** for component-driven development.  
-
-Stories added for:
-- **Button**  
-- **Slider**  
-- **Modal**  
-- **ChatBubble**  
-
-Run Storybook:
-```bash
-npm run storybook
